@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Head */
+
+/* Nav-tab */
+
+#home-icon{
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+}
+
+/* Headers */
+
+#header-pf{
+   background-color: rgb(220,220,220);
+   max-width: 100%;
+   max-height: 100%;
+}
+
+#header-rm{
+   background-color: greenyellow;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+#header-pg{
+   background-color: rgb(0, 0, 0);
+   max-width: 100%;
+   max-height: 100%;
+}
+
+/* Ajustes imagenes */
+
+#img-header{
+   width: 100%;
+   max-width: 400px;
+   height: 100px;
+}
+
+#img-header-gp{
+   width: 100%;
+   max-width: 400px;
+}
+
+/* Externos */
+
+#usage-text{
+   margin: 10px;
+   font-size: 1.2rem;
+}
+
+#img-header{
+   width: 100%;
+   max-width: 400px;
+   height: 100px;
+}
+
+#cont-pic{
+   display: flex;
+   justify-content: center ;
+}
+
+/* Body */
+
+#text-inst{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+#text-search-sec{
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+}
+
+#search-box{
+   display: flex;
+   justify-content: center ;
+}
+
+/* Search section */
+
+.search-sec{
+   margin: 0 5px;
+   border-radius: 5px;
+   border-color: #ccc;
+   padding: 5px
+}
+
+.phrase-gen{
+   margin: 0 5px;
+   border-radius: 5px;
+   border-color: #ccc;
+   padding: 5px
+}
+
+/* Boton buscar */
+
+#btnBuscar{
+   background-color: rgb(173,255,47);
+   box-shadow: 3px 4px 4px -3px black;
+}
+
+#btnBuscar:hover{
+   transition: 150ms;
+   background-color: rgb(153,235,27);
+   box-shadow: 0px 0px 3px 2px rgb(153,235,27,0.9);
+}
+
+#btnGenerar{
+   background-color: rgb(0,0,0);
+   box-shadow: 3px 4px 4px -3px black;
+   color:white;
+   font-weight: bold;
+   font-size: 1rem;
+}
+
+#btnGenerar:hover{
+   transition: 350ms;
+   background-color: rgb(0,0,0);
+   box-shadow: none;
+   color:white;
+   font-style: bold;
+   font-weight: 2rem;
+}
+
+#rdm-btn{
+   width: 30px;
+   height: 30px;
+}
+
+#btnAleatorio{
+   background-color: white;
+   box-shadow: 3px 4px 4px -3px black;
+}
+
+#btnAleatorio:hover{
+   background-color: white;
+   transition: 150ms;
+   box-shadow: none;
+}
+
+/* Tablas */
+
+#chr-table{
+   border-collapse: collapse;
+   width: 500px;
+   background-color: #ffffff;
+   font-family: Arial, sans-serif;
+   margin: 20px auto;
+}
+
+#chr-table-rm{
+   border-collapse: collapse;
+   width: 300px;
+   background-color: #ffffff;
+   font-family: Arial, sans-serif;
+   margin: 20px auto;
+}
+
+/* Bordes estrictos para cada celda de la tabla */
+#chr-table-rm td {
+    border: 1px solid #000000;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+}
+
+#chr-table-pg{
+   border-collapse: collapse;
+   width: 500px;
+   background-color: #ffffff;
+   font-family: Arial, sans-serif;
+   margin: 20px auto;
+}
+
+/* Bordes estrictos para cada celda de la tabla */
+#chr-table-pg td {
+    border: 1px solid #000000;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+}
+
+/* Control específico de la celda superior (Imagen) */
+
+#table-img-cell {
+    padding: 0 !important;
+    text-align: center;
+    height: 400px;
+    background-color: #fcfcfc; 
+}
+
+#picture-style {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Indicadores de datos: Izquierda */
+.cell-label {
+   width: 40%;
+   text-align: left;
+   color: black;
+   background-color: rgb(220,220,220);
+   font-weight: bold;
+}
+
+/* Indicadores de datos: Derecha */
+.cell-value {
+    width: 60%;
+    text-align: left;
+}
+
+#search-container {
+   display: flex;
+   justify-content: center ;
+}
