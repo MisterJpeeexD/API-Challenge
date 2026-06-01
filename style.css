@@ -172,6 +172,12 @@
     font-size: 0.95rem;
 }
 
+#chr-table td {
+    border: 1px solid #000000;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+}
+
 #chr-table-pg{
    border-collapse: collapse;
    width: 500px;
