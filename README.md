@@ -7,9 +7,9 @@ Este módulo forma parte del bloque práctico de tecnologías Core, enfocado en 
 ### 📂 Arquitectura de Archivos del Módulo
 
 ```text
-├── phrasegen.html   # Interfaz del Generador de Frases Aleatorias
 ├── script-pg.js     # Lógica de consumo de API (Fetch API) y manipulación del DOM
 ├── style.css        # Normalización, estilos de tablas y estados interactivos (:hover)
+├── phrasegen.html   # [Completado] Interfaz del Generador de Frases Aleatorias
 ├── rickymorty.html  # [Completado] Integración con la API de Rick and Morty
 ├── peoplegen.html   # [Completado] Módulo de generación de datos de usuarios
 └── home.html        # 🚧 [EN PROCESO DE DESARROLLO]
